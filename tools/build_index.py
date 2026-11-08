@@ -2,7 +2,7 @@
 """Builds the published hub: index.json, one zip per item and the previews, into a folder for GitHub Pages.
 usage: tools/build_index.py <out dir> [base url]
 Zips are reproducible (sorted names, fixed dates), so the same item always gives the same SHA-256."""
-import hashlib, json, pathlib, shutil, sys, tomllib, zipfile
+import hashlib, html, json, pathlib, shutil, sys, tomllib, zipfile
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 FORMAT = 1  # the app's hub::API
@@ -39,7 +39,8 @@ def main():
             e['preview_url'] = f'{base}/previews/{stem}{ext}'
         entries.append(e)
     (out / 'index.json').write_text(json.dumps({'format': FORMAT, 'items': entries}, ensure_ascii=False, indent=1))
-    rows = ''.join(f"<li><b>{e['name']['en']}</b> <code>{e['id']}</code> {e['kind']} {e['version']}</li>" for e in entries)
+    esc = lambda v: html.escape(str(v))
+    rows = ''.join(f"<li><b>{esc(e['name']['en'])}</b> <code>{esc(e['id'])}</code> {esc(e['kind'])} {esc(e['version'])}</li>" for e in entries)
     (out / 'index.html').write_text(
         '<!doctype html><meta charset="utf-8"><title>CSGO-Hub</title>'
         '<h1>CSGO-Hub</h1><p>Install these from the CS:GO Legacy Server app (Hub tab) or with '
