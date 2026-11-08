@@ -1,0 +1,54 @@
+// Messages of bots-menu.
+"Phrases"
+{
+	"title"
+	{
+		"en"		"Bots"
+		"es"		"Bots"
+	}
+	"add_t"
+	{
+		"en"		"Add a T bot"
+		"es"		"Añadir bot T"
+	}
+	"add_ct"
+	{
+		"en"		"Add a CT bot"
+		"es"		"Añadir bot CT"
+	}
+	"kick_one"
+	{
+		"en"		"One bot less"
+		"es"		"Un bot menos"
+	}
+	"kick_all"
+	{
+		"en"		"Kick all bots"
+		"es"		"Echar a todos los bots"
+	}
+	"diff_0"
+	{
+		"en"		"Difficulty: easy"
+		"es"		"Dificultad: fácil"
+	}
+	"diff_1"
+	{
+		"en"		"Difficulty: normal"
+		"es"		"Dificultad: normal"
+	}
+	"diff_2"
+	{
+		"en"		"Difficulty: hard"
+		"es"		"Dificultad: difícil"
+	}
+	"diff_3"
+	{
+		"en"		"Difficulty: expert"
+		"es"		"Dificultad: experto"
+	}
+	"freeze"
+	{
+		"en"		"Freeze or unfreeze bots"
+		"es"		"Congelar o descongelar bots"
+	}
+}

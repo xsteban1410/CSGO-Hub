@@ -1,0 +1,11 @@
+id = "modos_aleatorio"
+kind = "plugin"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Random weapon", es = "Arma aleatoria" }
+description = { en = "Each round everyone gets the same random weapon. Used by the random and duel modes.", es = "Cada ronda todos reciben la misma arma al azar. La usan los modos aleatorio y duelo." }
+requires = []
+tags = ["mode-plugin"]
+preview = "preview.png"

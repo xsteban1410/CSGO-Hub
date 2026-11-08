@@ -1,0 +1,11 @@
+id = "trigger"
+kind = "mode"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Trigger Discipline", es = "Gatillo fácil" }
+description = { en = "Official War Game: every shot that misses hurts you, but it never kills you", es = "War Game oficial: cada disparo fallado te hace daño, aunque nunca te mata" }
+requires = []
+tags = ["fun"]
+preview = "preview.png"

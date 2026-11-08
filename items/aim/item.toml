@@ -1,0 +1,11 @@
+id = "aim"
+kind = "mode"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Aim practice", es = "Puntería" }
+description = { en = "Bots stand still and do not shoot, you have infinite ammo and !guns. Warm up your aim", es = "Los bots están quietos y no disparan, tienes munición infinita y !armas. Para calentar la puntería" }
+requires = ["skins"]
+tags = ["classic"]
+preview = "preview.png"

@@ -1,0 +1,13 @@
+id = "skins"
+kind = "plugin"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Skins and knives", es = "Skins y cuchillos" }
+description = { en = "!ws for weapon skins, !knife for knife models and !guns for any weapon in the modes that allow it. Saved per player.", es = "!ws para skins de armas, !cuchillo para modelos de cuchillo y !armas para cualquier arma en los modos que lo permiten. Se guardan por jugador." }
+requires = []
+tags = ["skins", "fun"]
+preview = "preview.png"
+# special knives need SourceMod's FollowCSGOServerGuidelines off
+guidelines_off = true

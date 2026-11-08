@@ -1,0 +1,11 @@
+id = "clutch"
+kind = "mode"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Clutch", es = "Clutch" }
+description = { en = "Each round you win adds a bot, each round you lose removes one. How many can you beat?", es = "Cada ronda que ganas suma un bot y cada una que pierdes quita uno. ¿A cuántos puedes vencer?" }
+requires = ["modos_clutch"]
+tags = ["pve"]
+preview = "preview.png"

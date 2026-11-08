@@ -1,0 +1,11 @@
+id = "wingman"
+kind = "mode"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Wingman", es = "Wingman" }
+description = { en = "Official 2v2 on one bomb site, sixteen rounds. Small maps work best", es = "2v2 oficial en un solo sitio de bomba, dieciséis rondas. Mejor en mapas pequeños" }
+requires = []
+tags = ["competitive"]
+preview = "preview.png"

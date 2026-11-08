@@ -1,0 +1,11 @@
+id = "aleatorio"
+kind = "mode"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Random weapon", es = "Arma aleatoria" }
+description = { en = "Each round everyone gets the same random weapon, from AWP to Zeus", es = "Cada ronda todos reciben la misma arma al azar, de la AWP al Zeus" }
+requires = ["modos_aleatorio"]
+tags = ["fun"]
+preview = "preview.png"

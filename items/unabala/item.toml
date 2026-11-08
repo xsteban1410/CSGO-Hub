@@ -1,0 +1,11 @@
+id = "unabala"
+kind = "mode"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "One in the Chamber", es = "Una bala" }
+description = { en = "Deathmatch with a Deagle and one bullet. Any hit kills, and each kill gives you a bullet", es = "Deathmatch con Deagle y una bala. Cualquier impacto mata y cada baja te da otra bala" }
+requires = ["modos_unabala"]
+tags = ["deathmatch"]
+preview = "preview.png"

@@ -1,0 +1,11 @@
+id = "pack-valve"
+kind = "pack"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Valve's modes", es = "Modos de Valve" }
+description = { en = "Valve's own game modes: competitive, wingman, deathmatch, arms race, Guardian, Danger Zone and more.", es = "Los modos propios de Valve: competitivo, wingman, deathmatch, carrera de armas, Guardián, Zona de peligro y más." }
+requires = ["normal", "competitivo", "premier", "wingman", "dm", "ffa", "tdm", "armsrace", "demolicion", "guardian", "dangerzone", "rehenes", "hardcore"]
+tags = ["pack"]
+preview = "preview.png"

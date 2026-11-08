@@ -1,0 +1,11 @@
+id = "dmcuchillo"
+kind = "mode"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Knife deathmatch", es = "Deathmatch cuchillo" }
+description = { en = "Deathmatch with knives only", es = "Deathmatch solo con cuchillo" }
+requires = []
+tags = ["deathmatch"]
+preview = "preview.png"

@@ -1,0 +1,11 @@
+id = "ffa"
+kind = "mode"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Free-for-all", es = "Todos contra todos" }
+description = { en = "Deathmatch where everyone is your enemy, your friend too", es = "Deathmatch donde todos son enemigos, también tu amigo" }
+requires = []
+tags = ["deathmatch"]
+preview = "preview.png"

@@ -1,0 +1,11 @@
+id = "bots-menu"
+kind = "plugin"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Bots menu", es = "Menú de bots" }
+description = { en = "!bots opens a menu to add or kick bots, change their difficulty and freeze them. Needs the bots permission.", es = "!bots abre un menú para añadir o echar bots, cambiar su dificultad y congelarlos. Necesita el permiso bots." }
+requires = []
+tags = ["admin", "bots"]
+preview = "preview.png"

@@ -1,0 +1,11 @@
+id = "awpdm"
+kind = "mode"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "AWP deathmatch", es = "Deathmatch AWP" }
+description = { en = "Deathmatch with only AWP and Deagle", es = "Deathmatch solo con AWP y Deagle" }
+requires = []
+tags = ["deathmatch"]
+preview = "preview.png"

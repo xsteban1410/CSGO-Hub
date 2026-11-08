@@ -1,0 +1,11 @@
+id = "respawn-hp"
+kind = "plugin"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Respawn and health", es = "Revivir y vida" }
+description = { en = "!respawn [player] brings a player back to life and !hp <player> <health> sets their health. Needs the cheats permission.", es = "!respawn [jugador] revive a un jugador y !hp <jugador> <vida> le pone la vida. Necesita el permiso cheats." }
+requires = []
+tags = ["admin", "cheats"]
+preview = "preview.png"

@@ -1,0 +1,9 @@
+# Metadata for cfg/modo_armsrace.cfg
+category = "objective"
+name = { en = "Arms Race", es = "Carrera de armas" }
+description = { en = "Official: each kill gives you the next weapon, the first to the golden knife wins. Its own ar_ maps", es = "Oficial: cada baja te da el arma siguiente, gana el primero en llegar al cuchillo dorado. Mapas ar_ propios" }
+game_type = 1
+game_mode = 0
+map_prefixes = ["ar_"]
+default_map = "ar_shoots"
+exclusive_maps = true

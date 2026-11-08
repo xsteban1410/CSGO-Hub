@@ -1,0 +1,71 @@
+// Messages of modos_cheats. Each player sees them in their language.
+"Phrases"
+{
+	"cheat_got"
+	{
+		"#format"	"{1:s},{2:d}"
+		"en"		"You have {1} for {2} s."
+		"es"		"Tienes {1} durante {2} s."
+	}
+	"cheat_over"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1} is over."
+		"es"		"Se acabó: {1}."
+	}
+	"cheat_0"
+	{
+		"en"		"Wallhack"
+		"es"		"Wallhack"
+	}
+	"cheat_1"
+	{
+		"en"		"Aimbot"
+		"es"		"Aimbot"
+	}
+	"cheat_2"
+	{
+		"en"		"Infinite ammo"
+		"es"		"Munición infinita"
+	}
+	"cheat_3"
+	{
+		"en"		"Super speed"
+		"es"		"Supervelocidad"
+	}
+	"cheat_4"
+	{
+		"en"		"Low gravity"
+		"es"		"Gravedad baja"
+	}
+	"cheat_5"
+	{
+		"en"		"God mode"
+		"es"		"Invencible"
+	}
+	"cheat_6"
+	{
+		"en"		"Invisible"
+		"es"		"Invisible"
+	}
+	"cheat_7"
+	{
+		"en"		"One-shot kills"
+		"es"		"Un tiro mata"
+	}
+	"cheat_8"
+	{
+		"en"		"Autobhop"
+		"es"		"Autobhop"
+	}
+	"cheat_9"
+	{
+		"en"		"Super jump"
+		"es"		"Superpulso"
+	}
+	"cheat_10"
+	{
+		"en"		"Regeneration"
+		"es"		"Regeneración"
+	}
+}

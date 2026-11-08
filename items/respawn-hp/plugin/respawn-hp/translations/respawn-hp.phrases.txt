@@ -1,0 +1,16 @@
+// Messages of respawn-hp.
+"Phrases"
+{
+	"respawned"
+	{
+		"#format"	"{1:d}"
+		"en"		"Respawned {1} player(s)"
+		"es"		"{1} jugador(es) revivido(s)"
+	}
+	"health_set"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"		"Health of {1} player(s) set to {2}"
+		"es"		"Vida de {1} jugador(es) puesta en {2}"
+	}
+}

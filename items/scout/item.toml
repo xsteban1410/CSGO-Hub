@@ -1,0 +1,11 @@
+id = "scout"
+kind = "mode"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Scout", es = "Scout" }
+description = { en = "Everyone gets an SSG 08 and a P250. Short rounds, no buying", es = "Todos con SSG 08 y P250. Rondas cortas, sin comprar" }
+requires = []
+tags = ["weapons"]
+preview = "preview.png"

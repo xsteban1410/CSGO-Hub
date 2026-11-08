@@ -1,0 +1,21 @@
+// Messages of teleport.
+"Phrases"
+{
+	"went_to"
+	{
+		"#format"	"{1:N}"
+		"en"		"Went to {1}"
+		"es"		"Fue hasta {1}"
+	}
+	"brought"
+	{
+		"#format"	"{1:s}"
+		"en"		"Brought {1}"
+		"es"		"Trajo a {1}"
+	}
+	"need_target"
+	{
+		"en"		"Name a living player, and be alive yourself."
+		"es"		"Indica un jugador vivo y estate vivo tú también."
+	}
+}

@@ -1,0 +1,11 @@
+id = "jefe"
+kind = "mode"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Boss", es = "Jefe" }
+description = { en = "Normal rounds, but one bot each round is a slow red giant with 5000 HP", es = "Rondas normales, pero cada ronda un bot es un gigante rojo y lento con 5000 de vida" }
+requires = ["modos_jefe"]
+tags = ["fun"]
+preview = "preview.png"

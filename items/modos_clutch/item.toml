@@ -1,0 +1,11 @@
+id = "modos_clutch"
+kind = "plugin"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Clutch", es = "Clutch" }
+description = { en = "Winning a round adds a bot to the other side, losing one takes it away.", es = "Ganar una ronda añade un bot al rival y perderla lo quita." }
+requires = []
+tags = ["mode-plugin"]
+preview = "preview.png"

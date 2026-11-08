@@ -1,0 +1,70 @@
+name: CI
+# Every pull request and push is checked with the engine's own validator, a lint, and a compile of every plugin.
+# Pull requests run with read-only permissions and never with secrets: pull_request, not pull_request_target.
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Engine version
+        id: engine
+        run: |
+          python3 -I - <<'PY' >> "$GITHUB_OUTPUT"
+          import tomllib
+          e = tomllib.load(open("engine.toml", "rb"))
+          print(f"repo={e['repo']}")
+          print(f"ref={e['ref']}")
+          PY
+      - uses: actions/checkout@v7
+        with:
+          repository: ${{ steps.engine.outputs.repo }}
+          ref: ${{ steps.engine.outputs.ref }}
+          path: engine
+      - uses: actions/cache@v6
+        with:
+          path: |
+            ~/.cargo/registry
+            engine/target
+          key: cli-${{ steps.engine.outputs.ref }}-${{ hashFiles('engine/Cargo.lock') }}
+      - name: Build the CLI
+        run: cargo build --manifest-path engine/Cargo.toml -p csgo-legacy-server
+      - name: Check items as the app does
+        run: engine/target/debug/csgo-legacy-server hub check items/*
+      - name: Lint requirements, resets and phrases
+        run: python3 -I tools/lint.py engine
+      - name: Compile plugins with the pinned SourceMod
+        run: tools/compile.sh engine "$RUNNER_TEMP/sm"
+      - name: Build the index
+        run: python3 -I tools/build_index.py "$RUNNER_TEMP/site"
+      - name: Only what is merged goes to Pages
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ runner.temp }}/site
+
+  publish:
+    needs: check
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

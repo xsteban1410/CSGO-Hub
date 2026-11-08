@@ -1,0 +1,11 @@
+id = "autosniper"
+kind = "mode"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Auto-sniper", es = "Autosniper" }
+description = { en = "Everyone gets a SCAR-20 and a Deagle. Short rounds, no buying", es = "Todos con SCAR-20 y Deagle. Rondas cortas, sin comprar" }
+requires = []
+tags = ["weapons"]
+preview = "preview.png"

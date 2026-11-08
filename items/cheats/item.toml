@@ -1,0 +1,11 @@
+id = "cheats"
+kind = "mode"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Random cheats", es = "Cheats aleatorios" }
+description = { en = "Grab glowing power-ups for a random cheat for 30 s: wallhack, aimbot, god mode…", es = "Coge los power-ups brillantes para tener un cheat al azar 30 s: wallhack, aimbot, invencible…" }
+requires = ["modos_cheats"]
+tags = ["fun"]
+preview = "preview.png"

@@ -1,0 +1,11 @@
+id = "pack-all"
+kind = "pack"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Every mode", es = "Todos los modos" }
+description = { en = "The 46 game modes of the hub at once.", es = "Los 46 modos de juego del hub de una vez." }
+requires = ["aim", "aleatorio", "anarquia", "armsrace", "autosniper", "awp", "awpdm", "cheats", "clutch", "competitivo", "cuchillo", "dangerzone", "decoy", "defensa", "demolicion", "dm", "dmcabeza", "dmcuchillo", "duelo", "escopetas", "ffa", "flyingscout", "guardian", "hardcore", "headshot", "jefe", "libre", "luna", "negev", "ninjas", "normal", "pesados", "pistolas", "premier", "rehenes", "retake", "rifles", "scout", "stabzap", "tdm", "trigger", "unabala", "vampiro", "wingman", "zeus", "zombies"]
+tags = ["pack"]
+preview = "preview.png"

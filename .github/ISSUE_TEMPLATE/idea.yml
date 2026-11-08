@@ -1,0 +1,11 @@
+name: Idea for a mode or plugin
+description: Something you would like to see in the hub
+labels: [idea]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: How it plays, and which commands or settings it would have
+    validations:
+      required: true

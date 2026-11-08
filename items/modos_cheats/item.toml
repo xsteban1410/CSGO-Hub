@@ -1,0 +1,11 @@
+id = "modos_cheats"
+kind = "plugin"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Random cheats", es = "Cheats aleatorios" }
+description = { en = "Glowing power-ups around the map give a random cheat for a while.", es = "Power-ups brillantes por el mapa dan un cheat al azar durante un rato." }
+requires = []
+tags = ["mode-plugin"]
+preview = "preview.png"

@@ -1,0 +1,22 @@
+name: Something in the hub does not work
+description: A mode, plugin or pack from the hub misbehaves
+labels: [bug]
+body:
+  - type: input
+    id: item
+    attributes:
+      label: Item id and version
+      description: As shown in the Hub tab or by `csgo-legacy-server hub list --installed`
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happens and what you expected
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Errors
+      description: The app's console, or `csgo-legacy-server deploy` output. Remove passwords and tokens.

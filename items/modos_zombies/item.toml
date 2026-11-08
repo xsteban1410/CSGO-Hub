@@ -1,0 +1,11 @@
+id = "modos_zombies"
+kind = "plugin"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Zombie waves", es = "Oleadas zombis" }
+description = { en = "Zombie bots in waves, with types, knockback, infection and fog.", es = "Bots zombis por oleadas, con tipos, retroceso, infección y niebla." }
+requires = []
+tags = ["mode-plugin"]
+preview = "preview.png"

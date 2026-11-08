@@ -1,0 +1,11 @@
+id = "pack-admin"
+kind = "pack"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Admin tools", es = "Herramientas de admin" }
+description = { en = "Aimbot, wallhack, noclip, god mode, teleport, respawn, health and the bots menu for admins.", es = "Aimbot, wallhack, noclip, modo dios, teletransporte, revivir, vida y el menú de bots para admins." }
+requires = ["aimbot", "wallhack", "noclip-god", "teleport", "respawn-hp", "bots-menu"]
+tags = ["pack"]
+preview = "preview.png"

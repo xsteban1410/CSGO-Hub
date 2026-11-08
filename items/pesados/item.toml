@@ -1,0 +1,11 @@
+id = "pesados"
+kind = "mode"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Heavy armor", es = "Pesados" }
+description = { en = "Everyone in a Heavy Assault Suit with an M249: tough and slow", es = "Todos con traje pesado y M249: resistentes y lentos" }
+requires = []
+tags = ["weapons"]
+preview = "preview.png"

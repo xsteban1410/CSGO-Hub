@@ -1,0 +1,11 @@
+id = "luna"
+kind = "mode"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Moon", es = "Luna" }
+description = { en = "AWP and Deagle with very low gravity, as if on the Moon", es = "AWP y Deagle con muy poca gravedad, como en la Luna" }
+requires = []
+tags = ["fun"]
+preview = "preview.png"

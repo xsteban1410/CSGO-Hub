@@ -1,0 +1,11 @@
+id = "teleport"
+kind = "plugin"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Teleport", es = "Teletransporte" }
+description = { en = "!tp <player> takes you to a player and !bring <player> brings them to where you look. Needs the slay permission.", es = "!tp <jugador> te lleva a un jugador y !bring <jugador> lo trae a donde miras. Necesita el permiso slay." }
+requires = []
+tags = ["admin"]
+preview = "preview.png"

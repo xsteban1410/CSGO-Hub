@@ -1,0 +1,11 @@
+id = "libre"
+kind = "mode"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Free play", es = "Libre" }
+description = { en = "No rules: respawn, buy anywhere, and any weapon with !guns. Good for trying things", es = "Sin reglas: reaparición, compras en cualquier sitio y cualquier arma con !armas. Para probar cosas" }
+requires = ["skins"]
+tags = ["classic"]
+preview = "preview.png"

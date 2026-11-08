@@ -1,0 +1,11 @@
+id = "vampiro"
+kind = "mode"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Vampire", es = "Vampiro" }
+description = { en = "AK-47 and Deagle, and half the damage you deal heals you (up to 200 HP)", es = "AK-47 y Deagle, y la mitad del daño que haces te cura (hasta 200 de vida)" }
+requires = ["modos_vampiro"]
+tags = ["fun"]
+preview = "preview.png"

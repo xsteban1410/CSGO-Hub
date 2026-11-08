@@ -1,0 +1,11 @@
+id = "pistolas"
+kind = "mode"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Deagle", es = "Deagle" }
+description = { en = "Everyone gets only a Deagle. Short rounds, no buying", es = "Todos solo con Deagle. Rondas cortas, sin comprar" }
+requires = []
+tags = ["weapons"]
+preview = "preview.png"

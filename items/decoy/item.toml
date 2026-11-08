@@ -1,0 +1,11 @@
+id = "decoy"
+kind = "mode"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Decoy", es = "Señuelo" }
+description = { en = "Deathmatch with 1 HP and endless decoys: a direct hit kills", es = "Deathmatch con 1 de vida y señuelos sin fin: un impacto directo mata" }
+requires = []
+tags = ["deathmatch"]
+preview = "preview.png"

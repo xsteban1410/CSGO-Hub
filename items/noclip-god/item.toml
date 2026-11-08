@@ -1,0 +1,11 @@
+id = "noclip-god"
+kind = "plugin"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Noclip and god mode", es = "Noclip y modo dios" }
+description = { en = "!nc [player] flies through walls and !god [player] takes no damage. Needs the cheats permission.", es = "!nc [jugador] vuela atravesando paredes y !god [jugador] no recibe daño. Necesita el permiso cheats." }
+requires = []
+tags = ["admin", "cheats"]
+preview = "preview.png"

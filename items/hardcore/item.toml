@@ -1,0 +1,11 @@
+id = "hardcore"
+kind = "mode"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Hardcore", es = "Hardcore" }
+description = { en = "Competitive rules without radar: bullets hit 60% harder and friendly fire does full damage", es = "Reglas competitivas sin radar: las balas hacen un 60% más de daño y el fuego amigo hace daño completo" }
+requires = []
+tags = ["classic"]
+preview = "preview.png"

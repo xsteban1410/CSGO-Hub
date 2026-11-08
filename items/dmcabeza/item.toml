@@ -1,0 +1,11 @@
+id = "dmcabeza"
+kind = "mode"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Headshot deathmatch", es = "Deathmatch cabeza" }
+description = { en = "Deathmatch where only shots to the head do damage", es = "Deathmatch donde solo hacen daño los tiros a la cabeza" }
+requires = []
+tags = ["deathmatch"]
+preview = "preview.png"

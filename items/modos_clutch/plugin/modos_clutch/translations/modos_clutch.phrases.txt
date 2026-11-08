@@ -1,0 +1,10 @@
+// Messages of modos_clutch. Each player sees them in their language.
+"Phrases"
+{
+	"clutch_next"
+	{
+		"#format"	"{1:d}"
+		"en"		"Next round: {1} bots."
+		"es"		"Siguiente ronda: {1} bots."
+	}
+}

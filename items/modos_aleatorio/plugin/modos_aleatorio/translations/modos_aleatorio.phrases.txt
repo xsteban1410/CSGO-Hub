@@ -1,0 +1,10 @@
+// Messages of modos_aleatorio. Each player sees them in their language.
+"Phrases"
+{
+	"random_round"
+	{
+		"#format"	"{1:s}"
+		"en"		"This round: {1}"
+		"es"		"Esta ronda: {1}"
+	}
+}

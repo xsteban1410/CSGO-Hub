@@ -1,0 +1,11 @@
+id = "modos_jefe"
+kind = "plugin"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Boss", es = "Jefe" }
+description = { en = "Each round a bot turns into a giant boss with lots of health.", es = "Cada ronda un bot se convierte en un jefe gigante con mucha vida." }
+requires = []
+tags = ["mode-plugin"]
+preview = "preview.png"

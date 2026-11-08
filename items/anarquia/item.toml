@@ -1,0 +1,11 @@
+id = "anarquia"
+kind = "mode"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Anarchy", es = "Anarquía" }
+description = { en = "Chaos: everyone against everyone with friendly fire, respawn, buy anywhere, and nobody gets kicked", es = "Caos: todos contra todos con fuego amigo, reaparición, compras en cualquier sitio y sin expulsiones" }
+requires = []
+tags = ["fun"]
+preview = "preview.png"

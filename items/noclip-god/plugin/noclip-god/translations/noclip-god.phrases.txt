@@ -1,0 +1,16 @@
+// Messages of noclip-god.
+"Phrases"
+{
+	"on"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"{1} on for {2}"
+		"es"		"{1} activado para {2}"
+	}
+	"off"
+	{
+		"#format"	"{1:s},{2:s}"
+		"en"		"{1} off for {2}"
+		"es"		"{1} desactivado para {2}"
+	}
+}

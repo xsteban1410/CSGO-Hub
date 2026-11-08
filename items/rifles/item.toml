@@ -1,0 +1,11 @@
+id = "rifles"
+kind = "mode"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Rifles", es = "Rifles" }
+description = { en = "Everyone gets an AK-47 and a Deagle. Short rounds, no buying", es = "Todos con AK-47 y Deagle. Rondas cortas, sin comprar" }
+requires = []
+tags = ["weapons"]
+preview = "preview.png"

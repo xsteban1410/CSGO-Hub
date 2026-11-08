@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: A problem with the app or the server itself
+    url: https://github.com/xsteban1410/CSGO-Server/issues
+    about: Install, start, network, admins or anything that is not one hub item

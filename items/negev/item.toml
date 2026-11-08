@@ -1,0 +1,11 @@
+id = "negev"
+kind = "mode"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Negev", es = "Negev" }
+description = { en = "Everyone gets a Negev and nothing else. Short rounds, no buying", es = "Todos con Negev y nada más. Rondas cortas, sin comprar" }
+requires = []
+tags = ["weapons"]
+preview = "preview.png"

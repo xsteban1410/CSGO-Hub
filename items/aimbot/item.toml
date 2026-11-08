@@ -1,0 +1,11 @@
+id = "aimbot"
+kind = "plugin"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Aimbot for admins", es = "Aimbot para admins" }
+description = { en = "!am [player] turns a soft aimbot on or off. Needs the cheats permission.", es = "!am [jugador] activa o quita un aimbot suave. Necesita el permiso cheats." }
+requires = []
+tags = ["admin", "cheats"]
+preview = "preview.png"

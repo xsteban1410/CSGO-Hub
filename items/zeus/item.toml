@@ -1,0 +1,11 @@
+id = "zeus"
+kind = "mode"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Zeus", es = "Zeus" }
+description = { en = "Deathmatch with a Zeus that never runs out", es = "Deathmatch con un Zeus que nunca se acaba" }
+requires = []
+tags = ["deathmatch"]
+preview = "preview.png"

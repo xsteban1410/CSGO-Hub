@@ -1,0 +1,45 @@
+// Messages of modos_zombies. Each player sees them in their language.
+"Phrases"
+{
+	"wave_of"
+	{
+		"#format"	"{1:d},{2:d}"
+		"en"		"Wave {1} of {2}"
+		"es"		"Oleada {1} de {2}"
+	}
+	"zombies_ate_you"
+	{
+		"#format"	"{1:d}"
+		"en"		"You got eaten. Wave {1} starts again."
+		"es"		"Os han comido. Se repite la oleada {1}."
+	}
+	"zombies_victory_chat"
+	{
+		"#format"	"{1:d}"
+		"en"		"VICTORY! You survived all {1} waves. Restarting in 15 s."
+		"es"		"¡VICTORIA! Habéis sobrevivido a las {1} oleadas. Se reinicia en 15 s."
+	}
+	"zombies_victory_center"
+	{
+		"#format"	"{1:d}"
+		"en"		"VICTORY! {1} waves cleared"
+		"es"		"¡VICTORIA! {1} oleadas superadas"
+	}
+	"wave_cleared"
+	{
+		"#format"	"{1:d}"
+		"en"		"Wave cleared. Wave {1} is coming: more and tougher zombies."
+		"es"		"Oleada superada. Viene la {1}: más zombis y más duros."
+	}
+	"you_are_zombie"
+	{
+		"en"		"You are a zombie: get them!"
+		"es"		"Eres un zombi: ¡a por ellos!"
+	}
+	"infected"
+	{
+		"#format"	"{1:s}"
+		"en"		"{1} has been infected."
+		"es"		"{1} ha sido infectado."
+	}
+}

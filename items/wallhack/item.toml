@@ -1,0 +1,11 @@
+id = "wallhack"
+kind = "plugin"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Wallhack for admins", es = "Wallhack para admins" }
+description = { en = "!wh [player] shows enemies through walls, only to that player. Needs the cheats permission.", es = "!wh [jugador] muestra a los enemigos a través de las paredes, solo a ese jugador. Necesita el permiso cheats." }
+requires = []
+tags = ["admin", "cheats"]
+preview = "preview.png"

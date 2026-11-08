@@ -1,0 +1,11 @@
+id = "modos_unabala"
+kind = "plugin"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "One bullet", es = "Una bala" }
+description = { en = "One bullet in the pistol, each kill gives one more and any hit kills.", es = "Una bala en la pistola, cada baja da otra y cualquier impacto mata." }
+requires = []
+tags = ["mode-plugin"]
+preview = "preview.png"

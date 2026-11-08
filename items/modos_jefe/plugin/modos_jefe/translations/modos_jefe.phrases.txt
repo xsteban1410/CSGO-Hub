@@ -1,0 +1,10 @@
+// Messages of modos_jefe. Each player sees them in their language.
+"Phrases"
+{
+	"boss_is"
+	{
+		"#format"	"{1:s},{2:d}"
+		"en"		"{1} is the boss with {2} health!"
+		"es"		"¡{1} es el jefe con {2} de vida!"
+	}
+}

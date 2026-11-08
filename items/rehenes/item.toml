@@ -1,0 +1,11 @@
+id = "rehenes"
+kind = "mode"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Hostages", es = "Rehenes" }
+description = { en = "Rescue or guard the hostages, on cs_ maps", es = "Rescata o protege a los rehenes, en mapas cs_" }
+requires = []
+tags = ["objective"]
+preview = "preview.png"

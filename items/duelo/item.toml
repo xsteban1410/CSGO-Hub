@@ -1,0 +1,11 @@
+id = "duelo"
+kind = "mode"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Duel", es = "Duelo" }
+description = { en = "You against your friend, no bots. Same random weapon each round, first to 10 wins", es = "Tú contra tu amigo, sin bots. La misma arma al azar cada ronda, gana el primero en llegar a 10" }
+requires = ["modos_aleatorio"]
+tags = ["competitive"]
+preview = "preview.png"
