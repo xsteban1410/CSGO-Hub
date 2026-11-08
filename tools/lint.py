@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-"""Checks that `csgo-legacy-server hub check` does not: requirements, convar resets and phrases.
-usage: tools/lint.py <CSGO-Server checkout>"""
-import pathlib, re, sys, tomllib
+"""Checks that `csgo-legacy-server hub check` does not: requirements, convar resets, phrases, and that a changed
+item raises its version and says what changed.
+usage: tools/lint.py <CSGO-Server checkout> [git ref to compare with, such as origin/main]"""
+import pathlib, re, subprocess, sys, tomllib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 engine = pathlib.Path(sys.argv[1])
@@ -67,6 +68,36 @@ for id, it in items.items():
             for k in pair:
                 if k and k not in blocks:
                     problems.append(f'{id}: {s.name} uses phrase {k}, missing from its translations')
+
+def version(v):
+    """'1.2.10' -> (1, 2, 10), as the app compares them; anything else sorts first."""
+    try:
+        return tuple(int(x) for x in v.split('.'))
+    except (AttributeError, ValueError):
+        return ()
+
+def git(*args):
+    return subprocess.run(['git', '-C', str(ROOT), *args], capture_output=True, text=True)
+
+# the app only updates an item whose version went up: a change without it never reaches anyone
+against = sys.argv[2] if len(sys.argv) > 2 else ''
+if against and git('rev-parse', '--verify', '--quiet', f'{against}^{{commit}}').returncode != 0:
+    print(f'cannot compare with {against}: version checks skipped')
+    against = ''
+if against:
+    changed = sorted({p.split('/')[1] for p in git('diff', '--name-only', against, '--', 'items').stdout.split() if p.count('/') >= 2})
+    for id in changed:
+        if id not in items:
+            continue
+        old = git('show', f'{against}:items/{id}/item.toml')
+        if old.returncode != 0:
+            continue  # a new item
+        before = tomllib.loads(old.stdout).get('version', '')
+        now = items[id].get('version', '')
+        if version(now) <= version(before):
+            problems.append(f'{id}: changed, so its version must go above {before} (it is {now})')
+        elif not all(items[id].get('changes', {}).get(k) for k in ('en', 'es')):
+            problems.append(f'{id}: version {now} needs changes.en and changes.es: what this version changed')
 
 for p in problems:
     print(p)

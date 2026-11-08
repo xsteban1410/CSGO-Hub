@@ -30,6 +30,7 @@ description = { en = "...", es = "..." }
 requires = ["modos_zombies"]   # installed with it
 tags = ["pve"]                 # a mode's category goes here too
 preview = "preview.png"
+changes = { en = "...", es = "..." }  # what this version changed; required when you raise the version
 ```
 
 Only these file types are accepted: `toml cfg sp inc txt md png jpg jpeg webp`. No `.smx`, `.so`, binaries,
@@ -110,5 +111,5 @@ bots move and respawn. It does not prove how the mode plays: say in the pull req
 ## Review
 
 CI must be green. The maintainer reads every line of a plugin before merging, since it runs on other people's
-servers. A change to an existing item raises its `version`. Breaking the engine API needs a new `api` and
+servers. A change to an existing item raises its `version` and says what changed in `changes`; CI checks both. Breaking the engine API needs a new `api` and
 a CSGO-Server release first.
