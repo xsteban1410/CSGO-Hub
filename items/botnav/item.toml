@@ -1,0 +1,13 @@
+id = "botnav"
+kind = "plugin"
+version = "1.0.0"
+api = 1
+min_engine = ""
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Navigation for plugins (botnav)", es = "Navegación para plugins (botnav)" }
+description = { en = "A library: loads the map's navigation graph that the app extracts and gives other plugins a path finder, places and hiding spots. Used by the bot levels when installed; does nothing by itself.", es = "Una biblioteca: carga el grafo de navegación del mapa que extrae la app y da a otros plugins rutas, lugares y escondites. La usan los niveles de bots si está instalada; por sí sola no hace nada." }
+requires = []
+needs = ["nav"]
+tags = ["library", "bots"]
+preview = "preview.png"
