@@ -1,5 +1,5 @@
 # The CSGO-Server version the hub is checked against: its validator (`csgo-legacy-server hub check`),
 # its plugin API (game/plugin/include/csls.inc) and the SourceMod build it pins (game/data/pinned.toml).
-# Move it to a release tag once that release reads the hub.
+# Move it to a release tag once a release carries the plugin options and exports (5eaac48).
 repo = "xsteban1410/CSGO-Server"
-ref = "v1.4.0"
+ref = "5eaac48ab2efa697af8a7927d4ced293632632fa"
