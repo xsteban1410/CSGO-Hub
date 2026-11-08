@@ -1,11 +1,12 @@
 id = "pack-admin"
 kind = "pack"
-version = "1.0.0"
+version = "1.1.0"
 api = 1
 author = "xsteban1410"
 license = "GPL-3.0-or-later"
 name = { en = "Admin tools", es = "Herramientas de admin" }
-description = { en = "Aimbot, wallhack, noclip, god mode, teleport, respawn, health and the bots menu for admins.", es = "Aimbot, wallhack, noclip, modo dios, teletransporte, revivir, vida y el menú de bots para admins." }
-requires = ["aimbot", "wallhack", "noclip-god", "teleport", "respawn-hp", "bots-menu"]
+description = { en = "Aimbot, triggerbot, wallhack, noclip, god mode, teleport, respawn, health and the bots menu for admins.", es = "Aimbot, triggerbot, wallhack, noclip, modo dios, teletransporte, revivir, vida y el menú de bots para admins." }
+requires = ["aimbot", "triggerbot", "wallhack", "noclip-god", "teleport", "respawn-hp", "bots-menu"]
 tags = ["pack"]
 preview = "preview.png"
+changes = { en = "Adds the triggerbot.", es = "Añade el triggerbot." }

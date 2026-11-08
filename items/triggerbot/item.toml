@@ -1,0 +1,11 @@
+id = "triggerbot"
+kind = "plugin"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Triggerbot for admins", es = "Triggerbot para admins" }
+description = { en = "!tb [player] fires by itself when the crosshair is on an enemy. Needs the cheats permission.", es = "!tb [jugador] dispara solo cuando la mira está sobre un enemigo. Necesita el permiso cheats." }
+requires = []
+tags = ["admin", "cheats"]
+preview = "preview.png"

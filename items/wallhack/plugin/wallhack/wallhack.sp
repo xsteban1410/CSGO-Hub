@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: GPL-3.0-or-later
-// !wh [target]: a glowing copy of each enemy, sent only to whoever has it on. Admins with the cheats permission (CUSTOM1).
+// !wh [target]: a coloured aura around each enemy, seen only by whoever has it on (the real player stays as is). Admins with the cheats permission (CUSTOM1).
 #pragma semicolon 1
 #pragma newdecls required
 
@@ -121,11 +121,15 @@ void MakeGlows(int c)
 			continue;
 		DispatchKeyValue(g, "model", model);
 		DispatchKeyValue(g, "solid", "0");
-		DispatchKeyValue(g, "glowenabled", "1");
-		DispatchKeyValue(g, "glowcolor", "255 40 40");
-		DispatchKeyValue(g, "glowdist", "10000");
-		DispatchKeyValue(g, "glowstyle", "0");
 		DispatchSpawn(g);
+		// the copy itself is invisible: only its outline is drawn, so the real player (weapon, aim) is what you see
+		SetEntityRenderMode(g, RENDER_TRANSCOLOR);
+		SetEntityRenderColor(g, 255, 255, 255, 0);
+		SetEntProp(g, Prop_Send, "m_bShouldGlow", true);
+		SetEntProp(g, Prop_Send, "m_nGlowStyle", 0);
+		SetEntPropFloat(g, Prop_Send, "m_flGlowMaxDist", 10000.0);
+		int rgba[4] = {255, 40, 40, 255};
+		SetEntDataArray(g, GetEntSendPropOffs(g, "m_clrGlow"), rgba, 4, 1);
 		SetEntProp(g, Prop_Send, "m_fEffects", EF_BONEMERGE | EF_NOSHADOW | EF_NORECEIVESHADOW | EF_PARENT_ANIMATES);
 		SetVariantString("!activator");
 		AcceptEntityInput(g, "SetParent", e, g);

@@ -1,6 +1,6 @@
 id = "aimbot"
 kind = "plugin"
-version = "1.0.0"
+version = "1.1.0"
 api = 1
 author = "xsteban1410"
 license = "GPL-3.0-or-later"
@@ -9,3 +9,4 @@ description = { en = "!am [player] turns a soft aimbot on or off. Needs the chea
 requires = []
 tags = ["admin", "cheats"]
 preview = "preview.png"
+changes = { en = "Aims at the body when the head is hidden, cancels recoil, wider field and faster lock.", es = "Apunta al cuerpo si la cabeza está tapada, anula el retroceso, campo más amplio y fijado más rápido." }
