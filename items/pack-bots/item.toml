@@ -1,0 +1,11 @@
+id = "pack-bots"
+kind = "pack"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Pro bots", es = "Bots pro" }
+description = { en = "Bot navigation plus the Faceit Level 10 and God bot levels, ready to pick in the bot difficulty selector.", es = "Navegación de bots más los niveles Faceit Nivel 10 y Dios, listos para elegir en el selector de dificultad de bots." }
+requires = ["botnav", "bot-faceit10", "bot-god"]
+tags = ["pack"]
+preview = "preview.png"
