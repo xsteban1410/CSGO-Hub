@@ -1,0 +1,18 @@
+id = "bot-faceit10"
+kind = "plugin"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Bot level: Faceit Level 10", es = "Nivel de bots: Faceit Level 10" }
+description = { en = "Bots play like a Faceit Level 10 player: fast clean aim, spray control, no staring at the floor, no friendly fire, and grenades only when the situation calls for them (not perfectly aimed). Adds a bot difficulty level.", es = "Los bots juegan como un jugador de Faceit Level 10: puntería rápida y limpia, control del spray, sin mirar al suelo, sin fuego amigo y granadas solo cuando la situación lo pide (sin cálculo perfecto). Añade un nivel de dificultad de bots." }
+requires = []
+tags = ["bots"]
+preview = "preview.png"
+
+[[option]]
+id = "level"
+slot = "bot_difficulty"
+cvar = "csls_bot_level"
+title = { en = "Bot level", es = "Nivel de bots" }
+choices = [ { value = "4", label = { en = "Faceit Level 10", es = "Faceit Nivel 10" } } ]
