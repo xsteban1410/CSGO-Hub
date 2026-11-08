@@ -1,0 +1,18 @@
+id = "bot-god"
+kind = "plugin"
+version = "1.0.0"
+api = 1
+author = "xsteban1410"
+license = "GPL-3.0-or-later"
+name = { en = "Bot level: God", es = "Nivel de bots: Dios" }
+description = { en = "Bots play a perfect game: near-instant exact aim, flawless spray, no friendly fire, and utility chosen by the situation and thrown with exact trajectories (optional lineups in data/botgod_lineups.cfg). Adds a bot difficulty level.", es = "Los bots juegan una partida perfecta: puntería exacta casi instantánea, spray perfecto, sin fuego amigo y utilidad elegida según la situación y lanzada con trayectorias exactas (lineups opcionales en data/botgod_lineups.cfg). Añade un nivel de dificultad de bots." }
+requires = []
+tags = ["bots"]
+preview = "preview.png"
+
+[[option]]
+id = "level"
+slot = "bot_difficulty"
+cvar = "csls_bot_level"
+title = { en = "Bot level", es = "Nivel de bots" }
+choices = [ { value = "5", label = { en = "God", es = "Dios" } } ]
